@@ -1,0 +1,63 @@
+1) The string itself is immutable but the label can change. Assigning a new value to an existing variable is perfectly valid. Python does not have constants. This is independent from data type mutability.
+
+2) It violates the rules of how ID values and += are supposed to work - the ID values produced with the optimization in place would be not only impossible, but prohibited, with the unoptimized semantics - but the developers care more about people who would see bad concatenation performance and assume Python sucks.
+
+3) We can access characters in a String in Two ways : Accessing Characters by Positive Index Number. Accessing Characters by Negative Index Number.
+1. Accessing Characters by Positive Index Number: In this type of Indexing, we pass a Positive index(which we want to access) in square brackets. The index number starts from index number 0 (which denotes the first character of a string).
+# declaring the string
+str = "Geeks for Geeks !"
+
+# accessing the character of str at 0th index
+print(str[0])
+
+# accessing the character of str at 6th index
+print(str[6])
+
+# accessing the character of str at 10th index
+print(str[10])
+
+Output
+G
+f
+G
+2. Accessing Characters by Negative Index Number: In this type of Indexing, we pass the Negative index(which we want to access) in square brackets. Here the index number starts from index number -1 (which denotes the last character of a string). Example 2 (Negative Indexing) : 
+# declaring the string
+str = "Geeks for Geeks !"
+
+# accessing the character of str at last index
+print(str[-1])
+
+# accessing the character of str at 5th index from the last
+print(str[-5])
+
+# accessing the character of str at 10th index from the last
+print(str[-10])
+
+Output
+!
+e
+o
+
+4) “Indexing” means referring to an element of an iterable by its position within the iterable. “Slicing” means getting a subset of elements from an iterable based on their indices.
+
+6) The main difference between Character and String is that Character refers to a single letter, number, space, punctuation mark or a symbol that can be represented using a computer while String refers to a set of characters. In brief, String is a collection of characters.
+
+7) String Concatenation is the technique of combining two strings. String Concatenation can be done using many ways. 
+
+Using + operator 
+Using join() method 
+Using % operator 
+Using format() function 
+Using , (comma)
+
+Method 1: String Concatenation using + Operator
+It’s very easy to use the + operator for string concatenation. This operator can be used to add multiple strings together. However, the arguments must be a string. Here, The + Operator combines the string that is stored in the var1 and var2 and stores in another variable var3.
+
+Note: Strings are immutable, therefore, whenever it is concatenated, it is assigned to a new variable.
+
+Method 2: String Concatenation using join() Method
+The join() method is a string method and returns a string in which the elements of the sequence have been joined by str separator. This method combines the string that is stored in the var1 and var2. It accepts only the list as its argument and list size can be anything. 
+
+8)The substring() method extracts characters, between two indices (positions), from a string, and returns the substring. The substring() method extracts characters from start to end (exclusive).
+
+9)However, and and or are so useful that all programming languages have both. There are sixteen possible two-input Boolean operators. Except for and and or , they are rarely needed in practice. Because of this, True , False , not , and , and or are the only built-in Python Boolean operators.
